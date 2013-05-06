@@ -4,7 +4,10 @@
   "description": "Parse the dimensions of a data URI png / jpeg",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "component/jpeg-size": "0.0.1",
+    "component/png-size": "0.1.0"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
