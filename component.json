@@ -1,0 +1,14 @@
+{
+  "name": "datauri-dimensions",
+  "repo": "component/datauri-dimensions",
+  "description": "Parse the dimensions of a data URI png / jpeg",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
