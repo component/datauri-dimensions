@@ -7,9 +7,21 @@
 
     $ component install component/datauri-dimensions
 
-## API
+## Example
 
-   
+```js
+var size = require('datauri-dimensions');
+
+var canvas = document.createElement('canvas');
+canvas.width = 100;
+canvas.height = 150;
+
+var uri = canvas.toDataURL('image/jpeg');
+console.log(size(uri));
+
+var uri = canvas.toDataURL('image/png');
+console.log(size(uri));
+```
 
 ## License
 
