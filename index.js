@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var toBlob = require('data-uri-to-blob');
+var toArray = require('data-uri-to-u8');
 var jpeg = require('jpeg-size');
 var png = require('png-size');
 
@@ -16,8 +16,8 @@ var png = require('png-size');
  */
 
 module.exports = function(uri){
-  var blob = toBlob(uri);
-  return 'image/jpeg' == blob.type
-    ? jpeg(blob)
-    : png(blob);
+  var arr = toArray(uri);
+  return 'image/jpeg' == arr.type
+    ? jpeg(arr)
+    : png(arr);
 };
