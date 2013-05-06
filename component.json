@@ -6,7 +6,8 @@
   "keywords": ["png", "jpeg", "datauri", "size", "dimensions", "utility"],
   "dependencies": {
     "component/jpeg-size": "0.0.1",
-    "component/png-size": "0.1.0"
+    "component/png-size": "0.1.0",
+    "component/data-uri-to-blob": "0.0.4"
   },
   "development": {},
   "license": "MIT",
