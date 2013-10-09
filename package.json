@@ -3,7 +3,14 @@
   "repo": "component/datauri-dimensions",
   "description": "Parse the dimensions of a data URI png / jpeg",
   "version": "0.0.1",
-  "keywords": ["png", "jpeg", "datauri", "size", "dimensions", "utility"],
+  "keywords": [
+    "png",
+    "jpeg",
+    "datauri",
+    "size",
+    "dimensions",
+    "utility"
+  ],
   "dependencies": {
     "jpeg-size": "0.0.1",
     "png-size": "0.1.0",
@@ -16,5 +23,9 @@
     "scripts": {
       "datauri-dimensions/index.js": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/datauri-dimensions.git"
   }
 }
